@@ -3,7 +3,7 @@
 Functional Simulator for subset of RISCV Processor
 ================================================
 
-README
+README:
 
 Contributors:
 -------------------------------------------------
@@ -17,7 +17,7 @@ Contributors:
 
 Table of contents
 1. Directory Structure
-2. How to build and execute
+2. How to build and execute   
 
 Directory Structure:
 --------------------
