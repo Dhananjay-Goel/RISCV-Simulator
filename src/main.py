@@ -6,7 +6,7 @@ from PIL import Image
 from PIL import ImageTk, Image
 
 window=Tk()
-
+#
 class Redirect():
     
     def __init__(self, widget):
