@@ -152,6 +152,9 @@ def read(cache,physical_address1,Memory):
     #  d= { 1 : { 1 : [ [ 1 , 2 , 3 , 4 ] , 0 ] }
     reads+=1
     print("  READING FROM CACHE MEMORY ")
+    print("  Tag of The Requested Block         -> ",tag)
+    print("  Index of The Requested Block       -> ",index)
+    print("  Block Offset of The Requested Block-> ",block_offset)
     if(index not in cache.keys()):
         cache[index]={}
     if(tag not in cache[index].keys()):
@@ -179,6 +182,8 @@ def read(cache,physical_address1,Memory):
                         cache[index][tag]={}
                         plus_Block(cache,physical_address1,Memory,index,i)
                         print("  CONFLICT MISS DETECTED ")
+                        print("  Tag of Victim Block-> ",i)
+                        print("  Index of Victim Block-> ",index)
                         conflict_miss+=1
                         update_LRU(cache,index,tag)
                         break
