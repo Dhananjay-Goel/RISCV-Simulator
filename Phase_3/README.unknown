@@ -25,6 +25,7 @@ CS204-Project
       |- main.py
       |- myRISCVSim.py
       |- myRISCVSim_fowd.py
+      |- memory.py
   |- test
       |- sumArray.mc
       |- fibbo.mc
