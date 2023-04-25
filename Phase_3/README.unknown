@@ -23,8 +23,10 @@ CS204-Project
       |- myRISCVSim.h
   |- src
       |- main.py
+      |- maincopy.py
       |- myRISCVSim.py
       |- myRISCVSim_fowd.py
+      |- myRISCVSim_normal.py
       |- memory.py
   |- test
       |- sumArray.mc
